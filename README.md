@@ -17,7 +17,7 @@ People dealing with geometry detail preservation, in general, consider to decomp
 
 The equation for the vector subtraction is:
 $$n1 - n2 = quaternion(n2,n0).*N1.*quaternion(n2,n0)^{-1}$$
-where $N1=(0, n1)$, $n0=(0,0,1)$ a constant vector, and $quaternion(n2,n0)$ and $quaternion(n2,n0)^{-1}$ represent the quaternion and inverse_quaternion calculated from the rotation matrix that rotates vector $n2$ to vector $n0$ via z-axis. 
+where $N1=(0, n1)$, $n0=(0,0,1)$ a constant vector, and $quaternion(n2,n0)$ and $quaternion(n2,n0)^{-1}$ represent the quaternion and inverse quaternion calculated from the rotation matrix that rotates vector $n2$ to vector $n0$ via z-axis. 
 
 ## Run example
 run the script called "run.m" in Matlab, then you should find the decomposed results in path "./data/"
