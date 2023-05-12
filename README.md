@@ -11,7 +11,7 @@ People dealing with geometry detail preservation, in general, consider to decomp
 [Here]() is a script written in Matlab to decompose normal based on vector subtraction. Additionally, the script also includes a smoothing function that applies DTRF filter to obtain a structure normal image by smoothing the origial normal image.
 
 The equation for the vector subtraction is:
-$$n1 - n2 = $quaternion(n2,n0).*N1.*inverse of quaternion(n2,n0)$$
+$$n1 - n2 = $quaternion(n2,n0).*N1.*quaternion(n2,n0)^{-1}$$
 where $N1=(0, n1)$, $n0=(0,0,1)$ a constant vector, and $quaternion(n2,n0)$ and $inverse of quaternion(n2,n0)$ represent the quaternion and inverse_quaternion calculated from the rotation matrix that rotates vector $n2$ to vector $n0$ via z-axis. 
 
 ## Run example
