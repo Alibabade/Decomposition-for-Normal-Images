@@ -1,7 +1,9 @@
 # Decomposition-for-Normal-Images
 This repo presents a Matlab program implemented to decompose a normal image into a structure normal image and a detail normal image, where a structure normal image contains the main structure information from the original normal image (obtained by applying DTRF smoothing filter), and a detail normal image contains the detail information from the original normal image.
 
-![My Image](normal_decomposition_comparisonjpg)
+<div align='center'>
+  <img src='normal_decomposition_comparisonjpg'>
+</div>
 
 ## Introduction
 Normal Decomposition is mainly used for manipulating normal information stored in normal images, where normal images are more like a 2.5D data, a bridge that CONNECTs 3D information and 2D images. Thus, geometry processing applications especially 3D bas-relief modelling is naturally appealing to use such images to reconstruct 3D infromation. However, bas-relief modelling generally has to cope with compression cases, thus it is an essential capability for such application to preserve geometry details well under compression circumstances.
