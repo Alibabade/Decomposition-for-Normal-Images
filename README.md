@@ -2,7 +2,7 @@
 This repo presents a Matlab program implemented to decompose a normal image into a structure normal image and a detail normal image, where a structure normal image contains the main structure information from the original normal image (obtained by applying DTRF smoothing filter), and a detail normal image contains the detail information from the original normal image.
 
 <div align='center'>
-  <img src='normal_decomposition_comparisonjpg'>
+  <img src='normal_decomposition_comparison.png'>
 </div>
 
 ## Introduction
